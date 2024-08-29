@@ -1,0 +1,115 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+
+
+.employee-list,
+.employee-detail {
+  margin: 20px 0;
+}
+
+.employee-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.employee-item:last-child {
+  border-bottom: none;
+}
+
+.employee-name {
+  font-weight: bold;
+}
+
+.employee-detail h2 {
+  margin-top: 0;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+/* src/App.css or src/components/EmployeeList.css */
+
+.container {
+  background: white;
+  padding:20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.employee-list h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+table td, table th {
+  font-size: 16px;
+}
+
+table td {
+  color: #333;
+}
+
+table th {
+  font-weight: bold;
+}
